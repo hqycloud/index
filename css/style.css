@@ -1,0 +1,31 @@
+.line {
+    width: 500px;
+    border-right: 2px solid #fff;
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+.animation {
+    animation: typewriter 5s steps(50) 1s normal both, 
+    cursorblink 0.7s steps(50) infinite normal;
+    }
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes cursorblink {
+    from {
+        border-right-color: #fff;
+    }
+    to {
+        border-right-color: #000;
+    }
+}

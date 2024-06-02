@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* 使图片和内容在顶部对齐 */
+}
+
+.left-image {
+    width: 420px; /* 设置图片宽度 */
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: 250px;
+    margin-bottom: 10px; /* 设置图片的外边距，确保不贴紧 */
+    transition: transform 0.5s ease; /* 添加过渡效果 */
+    /* 设置图片左对齐 */
+    margin-right: auto;
+}
+
+.left-image:hover {
+    transform: rotate(360deg); /* 鼠标悬停时旋转一周 */
+}
+
+.content {
+    margin-left: 50px; /* 设置内容区的左边距 */
+    padding-top: 90px;
+    padding-bottom: 20px; /* 设置内容区的内边距 */
+}
+.content1 {
+    margin-left: 20px; /* 设置内容区的左边距 */
+    padding-top: 90px;
+
+    flex: 1; /* 内容区占据剩余空间 */
+}
+.contact {
+    margin-left: 250px; /* 设置内容区的左边距 */
+    padding-bottom: 20px; /* 设置内容区的内边距 */
+    margin-right: 250px;
+}
+.contact1 {
+    margin-left: 30px; /* 设置内容区的左边距 */
+	padding-top: 20px;
+    padding-bottom: 20px; /* 设置内容区的内边距 */
+}
+p {
+	text-align: center
+}
