@@ -53,6 +53,15 @@ p {
     text-align: center;
 }
 
+p1 {
+    text-align: center;
+	font-size: 10pt;
+}
+
+p2 {
+	font-size: 6pt;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column; /* 在小屏幕上垂直堆叠项目 */
