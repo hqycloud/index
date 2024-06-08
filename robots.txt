@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+
+# 允许访问其他内容
+Allow: /
