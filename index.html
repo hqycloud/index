@@ -12,7 +12,7 @@
 <script src="js/mdui.global.js"></script>
 <script src="js/main.js"></script>
 </head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/icon.css" rel="stylesheet">
 <body>
 <s-page theme="dark">
 	<mdui-top-app-bar style="position: relative;">
@@ -27,10 +27,10 @@
 		</mdui-dropdown>
 		</mdui-top-app-bar>
     <div class="container">
-        <img src="./images/avatar.png" alt="头像" class="left-image">
+        <img src="./images/avatar.webp" alt="头像" class="left-image">
         <div class="content">
 			<s-card type="outlined">
-  				<div slot="image"><img width="360px" src="./images/blog.png"></div>
+  				<div slot="image"><img width="360px" src="./images/blog.webp"></div>
   				<div slot="headline">博客</div>
   				<div slot="subhead">by hqycloud</div>
   				<div slot="text">dream的小破站，主要的文章、教程都会放到此站，基于Hexo框架</div>
@@ -39,7 +39,7 @@
         </div>
 		<div class="content1">
 			<s-card type="outlined">
-  				<div slot="image"><img width="277px" src="./images/alist.png"></div>
+  				<div slot="image"><img width="277px" src="./images/alist.webp"></div>
   				<div slot="headline">云盘</div>
 				<div slot="subhead">by hqycloud</div>
   				<div slot="text">资源分享云盘（常用工具、HUAWEI tools、同时也是viqoo下载源）</div>
@@ -70,23 +70,27 @@
   			<mdui-tab-panel slot="panel" value="tab-2">
 				<div align="center" class="contact1">
 				<mdui-card href="https://github.hqycloud.top/" target="_self" style="width: 160px;height: 124px">
-					<img width="60px" style="display: block; margin: auto;" src="https://github.hqycloud.top/favicon.ico">
+					<img width="60px" style="display: block; margin: auto;" src="images/github.ico">
 					<p>GitHub文件加速</p>				
 				</mdui-card>
 				<mdui-card href="https://hqycloud.cloudns.biz/" target="_self" style="width: 160px;height: 124px">
-					<img width="60px" style="display: block; margin: auto;" src="https://hqycloud.cloudns.biz/logo.png">
+					<img width="60px" style="display: block; margin: auto;" src="images/rsshub-logo.png">
 					<p>RSSHub 反代站</p>				
+				</mdui-card>
+				<mdui-card href="https://chat.hqycloud.top/" target="_self" style="width: 160px;height: 124px">
+					<img width="60px" style="display: block; margin: auto;" src="images/nextchat.ico">
+					<p>NextChat</p>				
 				</mdui-card>
 				</div>
 			</mdui-tab-panel>
   			<mdui-tab-panel slot="panel" value="tab-3">
 				<div align="center" class="contact1">
 				<mdui-card href="https://status.hqycloud.top/status/hqycloud" target="_self" style="width: 160px;height: 124px">
-					<img width="60px" style="display: block; margin: auto;" src="https://status.hqycloud.top/icon.svg">
+					<img width="60px" style="display: block; margin: auto;" src="images/icon.svg">
 					<p>站点监控</p>				
 				</mdui-card>
 				<mdui-card href="https://server.hqycloud.top/" target="_self" style="width: 160px;height: 124px">
-					<img width="60px" style="display: block; margin: auto;" src="https://server.hqycloud.top/static/logo.svg?v20210804">
+					<img width="60px" style="display: block; margin: auto;" src="images/logo.svg">
 					<p>服务器探针</p>				
 				</mdui-card>
 				</div>
@@ -94,7 +98,6 @@
 		</mdui-tabs>
 	</div>
 </s-page>
-<hr width="75%">
 	<p align="center">
 		<em>版权所有&copy;hqycloud</em><br>
 		<span id="runtime_span"></span>
